@@ -1,7 +1,7 @@
 export const profile = {
   name:     'Ruslan Somin',
   role:     'Senior AI Engineer · Full-Stack Developer',
-  location: 'Kyiv, Ukraine · Remote',
+  location: 'Philippines · Remote',
   years:    7,
   tagline:  'Building AI systems that are reliable, structured, and useful in real workflows.',
   intro:

@@ -16,7 +16,7 @@ const lines = [
   /* Header */
   { f: B, s: 28, x: 72, y: 760, t: 'Ruslan Somin' },
   { f: R, s: 12, x: 72, y: 738, t: 'Senior AI Engineer · Full-Stack Developer' },
-  { f: R, s: 10, x: 72, y: 722, t: 'Kyiv, Ukraine · Remote · LinkedIn' },
+  { f: R, s: 10, x: 72, y: 722, t: 'Philippines · Remote · LinkedIn' },
 
   /* Summary */
   { f: B, s: 13, x: 72, y: 688, t: 'Summary' },
