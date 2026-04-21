@@ -96,7 +96,7 @@ export function retrieve(q: string, limit = 3): AskResult {
       label:     snip.label,
       snippet:   snip.text,
       relevance: empty ? 0 : Math.round((s / top) * 100),
-      href:      `#entry-${p.index}`,
+      href:      `/work/${p.slug}`,
     }
   })
 

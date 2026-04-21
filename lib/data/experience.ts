@@ -12,80 +12,72 @@ export type Role = {
 export const experience: Role[] = [
   {
     period:  '2025 — Present',
-    company: 'TwilightCore',
-    role:    'Senior AI Engineer',
-    scope:   'Tech lead · platform + retrieval · 4-engineer pod',
-    note:    'Retrieval-grounded products for regulated industries. Shipped the Atlas RAG platform and the eval harness that gates every release.',
+    company: 'TwilightCore.AI',
+    role:    'Lead Software Engineer',
+    scope:   'AI applications · intelligent search · automation',
+    note:    'Leading development of AI-powered applications focused on intelligent search and operational automation.',
     wins: [
-      'Lifted faithful-answer rate from 62 % → 94 % on 40k-page compliance corpus.',
-      'Designed the CI-integrated eval harness (Bench) now adopted across four products.',
-      'Cut generation cost 38 % via hybrid retrieval + model routing, no quality loss.',
+      'Designed backend services for model orchestration and retrieval pipelines, improving application efficiency.',
+      'Integrated AI capabilities into web applications with usability and maintainability as first-class concerns.',
+      'Drove deployment and iterative refinement across application and infrastructure layers.',
     ],
-    stack: ['Python', 'FastAPI', 'PostgreSQL', 'pgvector', 'LangChain', 'OpenAI', 'Anthropic', 'AWS'],
+    stack: ['Python', 'FastAPI', 'LangChain', 'LangGraph', 'PostgreSQL', 'Docker', 'AWS'],
     current: true,
   },
   {
     period:  '2023 — 2025',
-    company: 'Northvale Systems',
-    role:    'Senior AI Engineer → Staff AI Engineer',
-    scope:   'Architect · agent tooling + observability · 3-engineer team',
-    note:    'Led the internal agent platform (Halyard) and the migration off a no-code workflow layer. Set the observability standards still used by the team.',
+    company: 'Red Canary (Zscaler)',
+    role:    'Senior AI Engineer',
+    scope:   'RAG pipelines · knowledge assistants · semantic search',
+    note:    'Designed and delivered AI-powered systems for knowledge assistants and semantic search on the security platform.',
     wins: [
-      'Shipped 47 automated workflows replacing an outage-prone no-code layer; silent-failure rate dropped below 0.5 %.',
-      'Published the internal eval playbook and ran the team’s first judge-calibration study.',
-      'Mentored two engineers from mid to senior through case-study writeups and eval reviews.',
+      'Built retrieval-augmented generation pipelines including document ingestion and vector search.',
+      'Developed backend services in Python and FastAPI for API workflows and system integration.',
+      'Deployed containerised services on Docker, Kubernetes, AWS, and Azure.',
     ],
-    stack: ['TypeScript', 'Node.js', 'Zod', 'OpenTelemetry', 'PostgreSQL', 'Temporal', 'Next.js'],
+    stack: ['Python', 'FastAPI', 'LangChain', 'PostgreSQL', 'Redis', 'Docker', 'Kubernetes', 'AWS', 'Azure'],
     current: false,
   },
   {
     period:  '2021 — 2023',
-    company: 'Red Cedar Tech',
-    role:    'Full-Stack Engineer → Senior Full-Stack Engineer',
-    scope:   'IC · training + serving + product · rotating across 3 squads',
-    note:    'Shipped the Dispatch triage classifier and built data products on Python + React across three teams. Pre-LLM muscle memory — types, tests, serving — that makes the current AI work hold up.',
+    company: 'PointClickCare',
+    role:    'Full-Stack Engineer',
+    scope:   'Full-stack · auth · reporting · semantic search',
+    note:    'Built full-stack applications on React, Next.js, Node.js, and PostgreSQL for healthcare operations software.',
     wins: [
-      'Cut ticket-routing cost 11× at 40k/day with a small-model / LLM cascade; p95 190 ms.',
-      'Rebuilt the analytics pipeline on DuckDB + dbt; dashboard refresh cut from 45 min to 90 s.',
-      'First engineer on the platform auth rewrite; shipped JWT + per-tenant scopes used across 6 products.',
+      'Developed backend APIs for authentication, reporting, and workflow management.',
+      'Introduced AI-assisted features like semantic search to improve application capabilities.',
+      'Contributed to CI/CD and cloud delivery on Docker, GitHub Actions, and AWS.',
     ],
-    stack: ['Python', 'PyTorch', 'FastAPI', 'React', 'TypeScript', 'PostgreSQL', 'AWS', 'Redis'],
+    stack: ['React', 'Next.js', 'Node.js', 'Express', 'PostgreSQL', 'Docker', 'GitHub Actions', 'AWS'],
     current: false,
   },
   {
-    period:  '2018 — 2021',
-    company: 'Indigo Labs & contract work',
+    period:  '2019 — 2020',
+    company: 'Productboard',
     role:    'Software Engineer',
-    scope:   'IC · backend + data',
-    note:    'Backend systems, analytics pipelines, internal developer tooling. Range of contract work that covered three stacks and taught me to read unfamiliar codebases fast.',
-    stack: ['Python', 'Django', 'PostgreSQL', 'React', 'Docker', 'GCP'],
+    scope:   'Backend · NLP · dashboards',
+    note:    'Backend functionality in Python, Flask, and Django for internal applications and automation services, with NLP capabilities.',
+    wins: [
+      'Built React-based dashboards for operational visibility and internal workflows.',
+      'Supported NLP functionality with Scikit-learn, TensorFlow, and Hugging Face Transformers.',
+      'Delivered in Agile with active testing, debugging, and cross-functional collaboration.',
+    ],
+    stack: ['Python', 'Flask', 'Django', 'React', 'Scikit-learn', 'TensorFlow', 'Hugging Face'],
     current: false,
   },
 ]
 
-export type OpenSource = {
-  name:    string
-  role:    string
-  summary: string
-  stars?:  string
-  href?:   string
+export type Education = {
+  period: string
+  school: string
+  degree: string
 }
 
-export const openSource: OpenSource[] = [
+export const education: Education[] = [
   {
-    name:    'Veldt',
-    role:    'Creator · maintainer',
-    summary: 'Open-source React SDK + FastAPI backend for production AI chat.',
-    stars:   '~430',
-  },
-  {
-    name:    'rag-eval-notes',
-    role:    'Author',
-    summary: 'Essays on faithfulness, judge drift, and what actually breaks in production RAG.',
-  },
-  {
-    name:    'pgvector contributor',
-    role:    'Contributor',
-    summary: 'Two merged PRs around index tuning and cosine-distance benchmarks.',
+    period: '2014 — 2018',
+    school: 'The Hong Kong Polytechnic University',
+    degree: 'BSc, Computer Science',
   },
 ]

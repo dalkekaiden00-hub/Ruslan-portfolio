@@ -1,7 +1,7 @@
 import { Container } from '../layout/Container'
 import { SectionHeader } from '../ui/SectionHeader'
 import { Rule } from '../ui/Rule'
-import { experience, openSource } from '@/lib/data'
+import { experience, education } from '@/lib/data'
 
 export function Experience() {
   return (
@@ -61,20 +61,19 @@ export function Experience() {
         <div className="mt-10 grid grid-cols-12 gap-6">
           <div className="col-span-12 md:col-span-3">
             <div className="label text-faint">§ 03.1</div>
-            <div className="display text-[22px] text-ink mt-1">Open source & writing</div>
+            <div className="display text-[22px] text-ink mt-1">Education</div>
           </div>
-          <ul className="col-span-12 md:col-span-9 space-y-4">
-            {openSource.map((o) => (
-              <li key={o.name} className="grid grid-cols-12 gap-4 border-b border-rule pb-4">
-                <div className="col-span-12 md:col-span-3">
-                  <div className="display text-[18px] text-ink italic">{o.name}</div>
-                  <div className="font-mono text-[11px] text-muted mt-0.5">{o.role}</div>
+          <ul className="col-span-12 md:col-span-9 space-y-3">
+            {education.map((e) => (
+              <li key={e.school} className="grid grid-cols-12 gap-4 border-b border-rule pb-4">
+                <div className="col-span-12 md:col-span-3 font-mono text-[12px] text-muted">
+                  {e.period}
                 </div>
-                <div className="col-span-12 md:col-span-7 text-[14px] text-muted leading-[1.6]">
-                  {o.summary}
+                <div className="col-span-12 md:col-span-6">
+                  <div className="display text-[18px] text-ink">{e.school}</div>
                 </div>
-                <div className="col-span-12 md:col-span-2 font-mono text-[11px] text-faint md:text-right">
-                  {o.stars}
+                <div className="col-span-12 md:col-span-3 text-[13px] text-accent italic md:text-right">
+                  {e.degree}
                 </div>
               </li>
             ))}

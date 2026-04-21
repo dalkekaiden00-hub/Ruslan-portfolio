@@ -2,6 +2,7 @@ export type Metric = { label: string; value: string }
 
 export type Project = {
   index:    string
+  slug:     string
   codename: string
   title:    string
   kind:     string
@@ -27,6 +28,7 @@ export const projects: Project[] = [
   /* ────────────────────── 01 ──────────────────────────────── */
   {
     index:    '01',
+    slug:     'atlas',
     codename: 'Atlas',
     title:    'Citation-grounded RAG platform for regulated filings',
     kind:     'RAG · Evaluation · Python · Postgres',
@@ -69,6 +71,7 @@ export const projects: Project[] = [
   /* ────────────────────── 02 ──────────────────────────────── */
   {
     index:    '02',
+    slug:     'halyard',
     codename: 'Halyard',
     title:    'Typed agent platform with replayable traces',
     kind:     'Agents · Platform · TypeScript · OpenTelemetry',
@@ -111,6 +114,7 @@ export const projects: Project[] = [
   /* ────────────────────── 03 ──────────────────────────────── */
   {
     index:    '03',
+    slug:     'dispatch',
     codename: 'Dispatch',
     title:    'Cascaded triage classifier at 40k tickets / day',
     kind:     'Fine-tune · Serving · Active learning',
@@ -153,6 +157,7 @@ export const projects: Project[] = [
   /* ────────────────────── 04 ──────────────────────────────── */
   {
     index:    '04',
+    slug:     'bench',
     codename: 'Bench',
     title:    'LLM evaluation harness wired into CI',
     kind:     'Evals · Platform · CI/CD',
@@ -195,6 +200,7 @@ export const projects: Project[] = [
   /* ────────────────────── 05 ──────────────────────────────── */
   {
     index:    '05',
+    slug:     'veldt',
     codename: 'Veldt',
     title:    'Open-source streaming AI chat SDK',
     kind:     'Full-stack · SDK · Streaming',

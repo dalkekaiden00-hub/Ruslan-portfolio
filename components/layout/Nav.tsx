@@ -26,9 +26,10 @@ export function Nav() {
           </ul>
           <a
             href={profile.contact.resume}
+            download
             className="font-mono text-[11px] uppercase tracking-[0.12em] text-ink border-b border-ink pb-0.5 hover:text-accent hover:border-accent transition-colors"
           >
-            Resume ↗
+            Resume ↓
           </a>
         </div>
       </Container>

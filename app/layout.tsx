@@ -1,6 +1,9 @@
 import type { Metadata } from 'next'
 import { Newsreader, Inter, JetBrains_Mono } from 'next/font/google'
 import './globals.css'
+import { PaperTexture } from '@/components/layout/PaperTexture'
+import { Nav } from '@/components/layout/Nav'
+import { Footer } from '@/components/layout/Footer'
 
 const newsreader = Newsreader({
   subsets: ['latin'],
@@ -29,7 +32,16 @@ export const metadata: Metadata = {
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="en" className={`${newsreader.variable} ${inter.variable} ${mono.variable}`}>
-      <body className="antialiased">{children}</body>
+      <body className="antialiased">
+        <main className="relative min-h-screen bg-paper text-ink">
+          <PaperTexture />
+          <div className="relative" style={{ zIndex: 1 }}>
+            <Nav />
+            {children}
+            <Footer />
+          </div>
+        </main>
+      </body>
     </html>
   )
 }

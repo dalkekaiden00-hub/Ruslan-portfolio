@@ -1,0 +1,70 @@
+%PDF-1.4
+%âãÏÓ
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [3 0 R] /Count 1 >>
+endobj
+3 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Contents 4 0 R /Resources << /Font << /F1 5 0 R /F2 6 0 R >> >> >>
+endobj
+4 0 obj
+<< /Length 3306 >>
+stream
+BT /F1 28 Tf 72 760 Td (Ruslan Somin) Tj ET
+BT /F2 12 Tf 72 738 Td (Senior AI Engineer · Full-Stack Developer) Tj ET
+BT /F2 10 Tf 72 722 Td (Kyiv, Ukraine · Remote · LinkedIn) Tj ET
+BT /F1 13 Tf 72 688 Td (Summary) Tj ET
+BT /F2 10 Tf 72 670 Td (Senior AI Engineer and Full-Stack Developer with seven years of experience building LLM applications,) Tj ET
+BT /F2 10 Tf 72 656 Td (retrieval-augmented generation, intelligent search, and workflow automation. End-to-end ownership across) Tj ET
+BT /F2 10 Tf 72 642 Td (backend architecture, APIs, orchestration, retrieval pipelines, frontends, and deployment.) Tj ET
+BT /F1 13 Tf 72 606 Td (Experience) Tj ET
+BT /F1 11 Tf 72 584 Td (Lead Software Engineer    TwilightCore.AI    Oct 2025  Present    Remote) Tj ET
+BT /F2 9 Tf 84 568 Td (· Designed backend services for model orchestration and retrieval pipelines.) Tj ET
+BT /F2 9 Tf 84 556 Td (· Integrated AI capabilities into web applications with usability and maintainability as first-class concerns.) Tj ET
+BT /F2 9 Tf 84 544 Td (· Led deployment and iterative refinement across application and infrastructure layers.) Tj ET
+BT /F1 11 Tf 72 516 Td (Senior AI Engineer    Red Canary \(Zscaler\)    May 2023  Sep 2025    Remote) Tj ET
+BT /F2 9 Tf 84 500 Td (· Designed and delivered AI-powered systems for knowledge assistants and semantic search.) Tj ET
+BT /F2 9 Tf 84 488 Td (· Built retrieval-augmented generation pipelines including document ingestion and vector search.) Tj ET
+BT /F2 9 Tf 84 476 Td (· Developed backend services in Python and FastAPI for API workflows and system integration.) Tj ET
+BT /F2 9 Tf 84 464 Td (· Deployed containerised services on Docker, Kubernetes, AWS, and Azure.) Tj ET
+BT /F1 11 Tf 72 436 Td (Full-Stack Engineer    PointClickCare    Jan 2021  Apr 2023    Remote) Tj ET
+BT /F2 9 Tf 84 420 Td (· Built full-stack applications on React, Next.js, Node.js, Express, and PostgreSQL.) Tj ET
+BT /F2 9 Tf 84 408 Td (· Developed backend APIs for authentication, reporting, and workflow management.) Tj ET
+BT /F2 9 Tf 84 396 Td (· Introduced AI-assisted features like semantic search.) Tj ET
+BT /F2 9 Tf 84 384 Td (· Contributed to CI/CD and cloud delivery on Docker, GitHub Actions, and AWS.) Tj ET
+BT /F1 11 Tf 72 356 Td (Software Engineer    Productboard    Jul 2019  Dec 2020    Remote) Tj ET
+BT /F2 9 Tf 84 340 Td (· Backend functionality in Python, Flask, and Django for internal applications and automation.) Tj ET
+BT /F2 9 Tf 84 328 Td (· React-based dashboards for operational visibility and internal workflows.) Tj ET
+BT /F2 9 Tf 84 316 Td (· NLP functionality with Scikit-learn, TensorFlow, and Hugging Face Transformers.) Tj ET
+BT /F1 13 Tf 72 282 Td (Education) Tj ET
+BT /F1 11 Tf 72 260 Td (The Hong Kong Polytechnic University    2014  2018) Tj ET
+BT /F2 10 Tf 72 244 Td (Bachelor of Science, Computer Science) Tj ET
+BT /F1 13 Tf 72 210 Td (Focus) Tj ET
+BT /F2 10 Tf 72 192 Td (LLM applications · RAG systems · Intelligent search · Workflow automation · Full-stack product engineering) Tj ET
+BT /F1 13 Tf 72 160 Td (Stack) Tj ET
+BT /F2 10 Tf 72 142 Td (Python, FastAPI, Django, Node.js, TypeScript, React, Next.js, LangChain, LangGraph) Tj ET
+BT /F2 10 Tf 72 128 Td (PostgreSQL, MongoDB, Redis, Docker, Kubernetes, AWS, Azure, OpenAI API, Anthropic API) Tj ET
+endstream
+endobj
+5 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Bold >>
+endobj
+6 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica >>
+endobj
+xref
+0 7
+0000000000 65535 f 
+0000000015 00000 n 
+0000000064 00000 n 
+0000000121 00000 n 
+0000000257 00000 n 
+0000003614 00000 n 
+0000003689 00000 n 
+trailer
+<< /Size 7 /Root 1 0 R >>
+startxref
+3759
+%%EOF

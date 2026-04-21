@@ -15,9 +15,8 @@ export function Footer() {
             </div>
           </div>
           <div className="flex gap-6">
-            <a href={profile.contact.github}   className="hover:text-ink transition-colors">GitHub ↗</a>
-            <a href={profile.contact.linkedin} className="hover:text-ink transition-colors">LinkedIn ↗</a>
-            <a href={`mailto:${profile.contact.email}`} className="hover:text-ink transition-colors">Email ↗</a>
+            <a href={profile.contact.linkedin} target="_blank" rel="noreferrer" className="hover:text-ink transition-colors">LinkedIn ↗</a>
+            <a href={profile.contact.resume} download className="hover:text-ink transition-colors">Resume ↓</a>
           </div>
           <div className="text-faint">
             Colophon · Set in Newsreader &amp; Inter · {profile.meta.updated}

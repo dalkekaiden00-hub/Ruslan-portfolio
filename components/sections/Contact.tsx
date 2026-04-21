@@ -15,32 +15,26 @@ export function Contact() {
               {' '}<em className="italic font-light text-accent">actually work</em>, let&rsquo;s talk.
             </p>
 
-            <div className="mt-12 grid grid-cols-1 md:grid-cols-3 gap-6 max-w-3xl">
+            <div className="mt-12 grid grid-cols-1 md:grid-cols-2 gap-6 max-w-3xl">
               <a
-                href={`mailto:${profile.contact.email}`}
+                href={profile.contact.resume}
+                download
                 className="group block border-t border-ink pt-4 hover:border-accent transition-colors"
               >
-                <div className="label text-faint">Email</div>
-                <div className="mt-1 font-mono text-[13px] text-ink group-hover:text-accent transition-colors break-all">
-                  {profile.contact.email}
-                </div>
-              </a>
-              <a
-                href={profile.contact.github}
-                className="group block border-t border-ink pt-4 hover:border-accent transition-colors"
-              >
-                <div className="label text-faint">GitHub</div>
+                <div className="label text-faint">Resume</div>
                 <div className="mt-1 font-mono text-[13px] text-ink group-hover:text-accent transition-colors">
-                  github.com/ruslansomin ↗
+                  Download CV (PDF) ↓
                 </div>
               </a>
               <a
                 href={profile.contact.linkedin}
+                target="_blank"
+                rel="noreferrer"
                 className="group block border-t border-ink pt-4 hover:border-accent transition-colors"
               >
                 <div className="label text-faint">LinkedIn</div>
                 <div className="mt-1 font-mono text-[13px] text-ink group-hover:text-accent transition-colors">
-                  linkedin.com/in/ruslansomin ↗
+                  Connect ↗
                 </div>
               </a>
             </div>
