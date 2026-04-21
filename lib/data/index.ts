@@ -1,0 +1,5 @@
+export { profile } from './profile'
+export { projects } from './projects'
+export { experience, openSource } from './experience'
+export type { Project, Metric } from './projects'
+export type { Role, OpenSource } from './experience'
